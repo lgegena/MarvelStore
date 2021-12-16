@@ -14,7 +14,7 @@ function App() {
           <NavBar />
           <Switch>
             <Route exact path='/' >
-                  <ItemListContainer greeting="Bienvenidos" /> 
+                  <ItemListContainer greeting="Bienvenidos a Marvel Store" /> 
             </Route>
             <Route exact path='/categoria/:id' component={ItemListContainer}/>
             <Route exact path='/edad/:id' component={ItemListContainer}/>
